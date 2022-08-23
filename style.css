@@ -1,0 +1,48 @@
+/* Common Css */
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 45px;
+    
+}
+p{
+    font-size: 22px;
+    line-height: 35px;
+    padding-bottom: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* Top Banner */
+.top-banner-section{
+    background: linear-gradient(rgba(0, 0, 0, .60), rgba(0, 0, 0, .80)), url(./images/donation0.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.top-banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+
+}
+.banner-content p{
+padding:2% 25%;
+
+}
+.btn{
+    background-color:  orange;
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+    margin-top:20px ;
+}

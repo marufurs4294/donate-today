@@ -138,3 +138,37 @@ i{
 .content{
     padding: 20px 0;
 }
+
+/* Annual Report */
+.annual-report{
+    padding-bottom: 30px;
+}
+
+.section-title{
+    text-align: center;
+}
+.report-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.report-part{
+    display: flex;
+    align-items: center;
+    padding: 30px 70px;
+    border: 1px solid rgb(215, 206, 206);
+    margin: 0 10px;
+}
+
+.report-part i{
+    color: orange;
+}
+.report-content{
+    padding: 0 20px;
+}
+.report-content h2{
+  font-size: 32px;  
+}
+.report-content h4{
+    color: rgb(158, 148, 148);
+}

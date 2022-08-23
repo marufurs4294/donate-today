@@ -50,3 +50,55 @@ padding:2% 25%;
 .btn:hover{
     color: black;
 }
+
+/* Donate Today */
+.donate-today-section{
+    padding: 60px 0;
+    
+}
+.donate-content{
+    display: flex;
+    text-align: center;
+    padding:2% 25%;
+}
+.donate-content p{
+    color: gray;
+    padding-top: 10px;
+}
+.donate-part{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.donate-amount{
+    padding: 30px;
+}
+.donate-amount h2{
+    color: gray;
+}
+.second-amount{
+    border: 2px solid tomato; 
+    border-radius: 5px;
+    padding: 20px;
+    color: tomato;
+    background-color: rgb(248, 232, 232);
+}
+.second-amount h2{
+    color:tomato;
+}
+.donate-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.donate-form{
+    padding-bottom: 20px;
+    text-align: center;
+}
+input{
+    border: 0;
+    border-bottom: 2px solid gray;
+    width: 200px;
+    padding: 10px ;
+}

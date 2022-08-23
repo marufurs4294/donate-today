@@ -102,3 +102,38 @@ input{
     width: 200px;
     padding: 10px ;
 }
+
+
+/* Donate Plan */
+.donate-plan{
+    padding:60px ;
+}
+.planing-card{
+    display: flex;
+}
+.card{
+    padding:25px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.card:nth-child(1){
+    background-color: rgb(188, 246, 246);
+}
+.card:nth-child(2){
+    background-color: rgb(243, 210, 216);
+}
+.card:nth-child(3){
+    background-color: antiquewhite;
+}
+.card p{
+    font-size: 18px;
+    color: gray;
+    line-height: 25px;
+    padding: 10px 0;
+}
+i{
+    font-size: 35px;
+}
+.content{
+    padding: 20px 0;
+}
